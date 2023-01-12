@@ -238,11 +238,11 @@ body {
     .pricing-card {
         min-width: 300px;
         max-height: 150px;
-        /* border: 1px solid #000; */
         display: grid;
         grid-template-columns: 2fr 1.5fr;
         grid-auto-rows: minmax(25%, auto);
         grid-column-gap: 10px;
+        margin: 7px 0px;
     }
 
     .description {
