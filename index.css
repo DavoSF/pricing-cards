@@ -1,0 +1,219 @@
+/* INICIO RESET */
+:root {
+    --negro: #393939;
+    --blanco: #fff;
+    --tipo-principal: Helvetica, Arial, sans-serif;
+    --tipo-secundaria: Verdana;
+}
+  
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --negro: #ececec;
+      --blanco: #393939;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      -webkit-animation: none !important;
+              animation: none !important;
+      -webkit-transition: none !important;
+      transition: none !important;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+  
+p a {
+    display: inline;
+}
+  
+li {
+    list-style-type: none;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+  
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+  
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none;
+}
+
+::-moz-selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+::selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+}
+  
+table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: var(--tipo-principal);
+    color: var(--negro);
+    /* padding: 306px 0px 0px 280px; */
+    background-color: #F5F8FF;
+}
+/* FIN RESET */
+
+.ellipse1 {
+    height: 624px;
+    width: 624px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFDDB6 0%, rgba(255, 221, 182, 0) 100%);
+    margin-top:1700px;
+    margin-left: 750px;
+    z-index: 0;
+}
+
+.ellipse2 {
+    height: 1000px;
+    width: 1000px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(237, 187, 255, 0.6) 0%, rgba(237, 187, 255, 0) 100%);
+    margin-top: 100px;
+    margin-left: -450px;
+    z-index: 0;
+}
+
+.ellipse3 {
+    height: 528px;
+    width: 528px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(198, 252, 255, 1) 0%, rgba(198, 252, 255, 0) 100%);
+    margin-top: -1300px;
+    margin-left: 150px;
+    z-index: 0;
+}
+
+#container {
+    width: 1098px;
+    height: 544px;
+    border-radius: 30px;
+    background-color: #FFFFFFB2;
+    border: 20px solid #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    gap: 45px;
+    padding: 90px 90px;
+    z-index: 9999;
+}
+
+.pricing-card {
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.pricing-card h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #141843;
+    margin-bottom: 22px;
+}
+
+.price {
+    color: #141843;
+}
+
+.price span {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.price .price-tag {
+    font-size: 62px;
+    line-height: 80px;
+}
+
+.price sub {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.description {
+    height: 78px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #141843;
+    margin-top: 40px;
+}
+
+.container button {
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.container .free {
+    background-color: #FC4E8C;
+    color:#000000;
+}
+
+.container .standard {
+    background-color: #09E1EF;
+    color:#000000;
+}
+
+.container .premium {
+    background-color: #000000;
+    color: #fff;
+}
+
